@@ -13,10 +13,6 @@ I use **YARN** because it is much faster than **NPM**
 
 ---
 
-<br />
-<br />
-<br />
-
 ## **To run Client**
 
 ```
@@ -28,8 +24,6 @@ yarn start
 ## Credentials for logging in:
 
 ---
-
-<br />
 
 ### **As Admin (DEFAULT)**
 
@@ -47,10 +41,6 @@ password: user123 (all common users has this password)
 
 ---
 
-<br />
-<br />
-<br />
-
 ## **To run Server**
 
 ```
@@ -63,9 +53,6 @@ yarn start
 
 ## <span style="color: #EE2400">Disclaimer!!</span>
 
-- <span style="color: #f2f2f2f2">When logging in as **USER**, the invite user button and other reason to create request aside from displaying users.</span>
+- <span style="color: #f2f2f2f2">When logging in as **USER**, the invite user button and other elements that can create a request is hidden aside from displaying users.</span>
 - <span style="color: #f2f2f2f2">I did not display the **EDIT** and **DELETE** columns in the table when the user logged in is not the **DEFAULT**</span>
 - <span style="color: #f2f2f2f2">The forms in frontend might not have error handling. I did it to save time 😅😅😅</span>
-
-
-
