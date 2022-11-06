@@ -1,0 +1,36 @@
+.delete-form-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 50px 0;
+}
+.delete-form-overlay .delete-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 5px;
+}
+.delete-form-overlay .delete-container h2 {
+  margin: 5px 0 25px 0;
+}
+.delete-form-overlay .delete-container .button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.delete-form-overlay .delete-container .button-container button {
+  border: 0;
+  border-radius: 6px;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.delete-form-overlay .delete-container .button-container button:first-child {
+  background-color: rgb(248, 27, 27);
+  color: #ffffff;
+}/*# sourceMappingURL=userDelete.css.map */

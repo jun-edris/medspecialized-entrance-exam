@@ -1,0 +1,41 @@
+.delete-form-overlay {
+	background-color: rgba($color: #000000, $alpha: 0.5);
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	align-items: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	padding: 50px 0;
+
+	.delete-container {
+		background-color: #ffffff;
+		padding: 25px;
+		border-radius: 5px;
+
+		h2 {
+			margin: 5px 0 25px 0;
+		}
+
+		.button-container {
+			display: flex;
+			justify-content: space-evenly;
+
+			button {
+				border: 0;
+				border-radius: 6px;
+				padding: 5px 20px;
+				cursor: pointer;
+				font-size: 16px;
+
+				&:first-child {
+					background-color: rgb(248, 27, 27);
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}

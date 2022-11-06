@@ -1,0 +1,30 @@
+.ul {
+  list-style: none;
+  padding: 0;
+}
+.ul .nav-title {
+  color: white;
+}
+.ul .nav-list {
+  display: flex;
+  align-items: center;
+}
+.ul .nav-list :hover {
+  background-color: #5086c6;
+}
+.ul .nav-list .nav-details-container {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 30px;
+  align-items: center;
+  width: 100%;
+}
+.ul .nav-list .nav-details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+.ul .users {
+  background-color: #5086c6;
+}/*# sourceMappingURL=navigation.css.map */

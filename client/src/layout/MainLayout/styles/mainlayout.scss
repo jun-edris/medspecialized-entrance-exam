@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	.item {
+		flex-grow: 1;
+		.main {
+			flex-grow: 1;
+			padding: 15px 25px 15px 35px;
+		}
+	}
+}

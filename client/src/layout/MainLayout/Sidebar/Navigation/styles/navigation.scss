@@ -1,0 +1,40 @@
+@import './../../../../../constant/styles/variables.scss';
+
+.ul {
+	list-style: none;
+	padding: 0;
+
+	.nav-title {
+		color: white;
+	}
+
+	.nav-list {
+		display: flex;
+		align-items: center;
+
+		// justify-content: space-between;
+
+		:hover {
+			background-color: $primaryColor;
+		}
+
+		.nav-details-container {
+			display: flex;
+			padding-left: 50px;
+			padding-right: 30px;
+			align-items: center;
+			width: 100%;
+		}
+
+		.nav-details {
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			width: 100%;
+		}
+	}
+
+	.users {
+		background-color: $primaryColor;
+	}
+}

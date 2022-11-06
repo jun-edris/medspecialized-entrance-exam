@@ -1,0 +1,95 @@
+@import './../../../constant/styles/variables.scss';
+
+.user-container {
+	position: relative;
+
+	.user-heading {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 25px;
+
+		.heading-1 {
+			font-weight: 400;
+			margin: 5px 0 5px 0;
+			font-size: 26px;
+		}
+
+		.user-button {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			padding: 4px 20px 4px 20px;
+			background-color: #39b647;
+			color: white;
+			font-size: 14px;
+			border: 0;
+			border-radius: 4px;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	.sort-container {
+		margin-bottom: 10px;
+
+		select {
+			padding: 4px 10px 4px 10px;
+			width: 150px;
+		}
+	}
+
+	.table-container {
+		table {
+			width: 100%;
+			thead {
+				background-color: $primaryColor;
+				border: none;
+				color: white;
+
+				tr {
+					th {
+						padding: 4px 0;
+						font-weight: 400;
+						font-size: 14px;
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					&:nth-child(odd) {
+						background-color: #efefef;
+					}
+
+					td {
+						padding: 3px 4px 3px 10px;
+
+						&:first-child {
+							display: flex;
+							align-items: center;
+							gap: 10px;
+						}
+						&:nth-last-child(-n + 6) {
+							text-align: center;
+						}
+
+						button {
+							display: block;
+							margin: auto;
+							border: 0;
+							padding: 0;
+							background-color: transparent;
+
+							:hover {
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

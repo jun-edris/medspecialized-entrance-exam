@@ -1,0 +1,72 @@
+.user-container {
+  position: relative;
+}
+.user-container .user-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.user-container .user-heading .heading-1 {
+  font-weight: 400;
+  margin: 5px 0 5px 0;
+  font-size: 26px;
+}
+.user-container .user-heading .user-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 20px 4px 20px;
+  background-color: #39b647;
+  color: white;
+  font-size: 14px;
+  border: 0;
+  border-radius: 4px;
+}
+.user-container .user-heading .user-button:hover {
+  cursor: pointer;
+}
+.user-container .sort-container {
+  margin-bottom: 10px;
+}
+.user-container .sort-container select {
+  padding: 4px 10px 4px 10px;
+  width: 150px;
+}
+.user-container .table-container table {
+  width: 100%;
+}
+.user-container .table-container table thead {
+  background-color: #5086c6;
+  border: none;
+  color: white;
+}
+.user-container .table-container table thead tr th {
+  padding: 4px 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+.user-container .table-container table tbody tr:nth-child(odd) {
+  background-color: #efefef;
+}
+.user-container .table-container table tbody tr td {
+  padding: 3px 4px 3px 10px;
+}
+.user-container .table-container table tbody tr td:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-container .table-container table tbody tr td:nth-last-child(-n+6) {
+  text-align: center;
+}
+.user-container .table-container table tbody tr td button {
+  display: block;
+  margin: auto;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.user-container .table-container table tbody tr td button :hover {
+  cursor: pointer;
+}/*# sourceMappingURL=user.css.map */
