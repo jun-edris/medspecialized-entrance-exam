@@ -24,7 +24,7 @@ app.use('/api/admin', adminRoute);
 
 mongoose
 	.connect(
-		'mongodb+srv://admin:hNRkcYlj9dkXi84I@medspecialized.z4vssip.mongodb.net/ExamDB?retryWrites=true&w=majority',
+		'MONGODB URI',
 		{
 			useNewUrlParser: true,
 			useUnifiedTopology: true,

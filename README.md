@@ -46,8 +46,17 @@ password: user123 (all common users has this password)
 ```
 cd server
 yarn install
+```
+Please add this to index.js under mongoose.connect(). This is MONGODB URI
+```
+mongodb+srv://admin:hNRkcYlj9dkXi84I@medspecialized.z4vssip.mongodb.net/ExamDB?retryWrites=true&w=majority
+```
+
+after adding the URI
+```
 yarn start
 ```
+
 
 ---
 
